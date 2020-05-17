@@ -3,6 +3,10 @@
 #include <cmath>
 #include "Interaccion.h"
 
+
+////////
+//CAMBIOS
+//////////
 Mundo::~Mundo()
 {
 	esferas.destruirContenido();
@@ -33,7 +37,7 @@ void Mundo::dibuja()
 	esfera_pulsante.dibuja();
 	disparo_especial.dibuja();
 
-	ETSIDI::setTextColor(1,1,0);
+	ETSIDI::setTextColor(1, 0,1);
 	ETSIDI::setFont("fuentes/Bitwise.ttf",16);
 	ETSIDI::printxy("Pang 1.1", -10,17);
 	
