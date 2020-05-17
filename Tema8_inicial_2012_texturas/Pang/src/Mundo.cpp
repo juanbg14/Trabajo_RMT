@@ -7,6 +7,7 @@
 ////////
 //CAMBIOS
 //////////
+
 Mundo::~Mundo()
 {
 	esferas.destruirContenido();
